@@ -1,5 +1,6 @@
 """Grand Prix page → MotoGP race and sprint classification rows."""
 
+import re
 from decimal import Decimal, InvalidOperation
 
 from bs4 import BeautifulSoup, Tag
@@ -26,6 +27,10 @@ STATUS_CODES = {
     "EXC": ResultStatus.EXC,
     "WD": ResultStatus.WD,
 }
+
+
+#: some early pages number non-finishers in order of retirement: "Ret (13)"
+_ORDER_SUFFIX = re.compile(r"\s*\(\d+\)$")
 
 
 def parse_gp_results(html: str) -> list[ResultRow]:
@@ -92,7 +97,7 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
 def _position_and_status(value: str) -> tuple[int | None, ResultStatus]:
     if value.isdigit():
         return int(value), ResultStatus.CLASSIFIED
-    status = STATUS_CODES.get(value.upper())
+    status = STATUS_CODES.get(_ORDER_SUFFIX.sub("", value).upper())
     if status is None:
         raise ValueError(f"Unknown position code in results table: {value!r}")
     return None, status

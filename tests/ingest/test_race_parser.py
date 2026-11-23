@@ -4,7 +4,7 @@ import pytest
 
 from paddock.ingest.race_parser import parse_gp_results
 from paddock.models import ResultRow, ResultStatus, SessionType
-from tests.wiki_fixtures import QATAR_2024, SPAIN_2005, load_fixture
+from tests.wiki_fixtures import JAPAN_2002, QATAR_2024, SPAIN_2005, load_fixture
 
 HEADER = (
     "<tr><th>Pos.</th><th>No.</th><th>Rider</th><th>Team</th><th>Constructor</th>"
@@ -141,3 +141,15 @@ def test_row_with_merged_cells_is_parsed():
     )
     result = only_row(synthetic_page(merged))
     assert (result.status, result.laps, result.grid, result.team) == (ResultStatus.DNS, None, 9, "Team X")
+
+
+def test_2002_japan_numbered_retirements():
+    rows = parse_gp_results(load_fixture(JAPAN_2002))
+    ukawa = next(r for r in rows if r.rider_name == "Tohru Ukawa")
+    assert (ukawa.status, ukawa.position, ukawa.laps, ukawa.grid) == (ResultStatus.RET, None, 18, 11)
+    assert "Casey Stoner" not in {r.rider_name for r in rows}  # 250cc excluded
+
+
+@pytest.mark.parametrize("pos", ["Ret (13)", "Ret(13)", "DNS (22)"])
+def test_status_code_with_order_number(pos):
+    assert only_row(synthetic_page(row(pos))).position is None
