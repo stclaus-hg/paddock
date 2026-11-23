@@ -74,16 +74,22 @@ def _session_for(table: Tag) -> SessionType | None:
 
 def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[ResultRow]:
     column = {name: i for i, name in enumerate(headers)}
-    constructor_col = next((column[h] for h in CONSTRUCTOR_HEADERS if h in column), None)
-    body = [cells for tr in table.find_all("tr")[1:] if (cells := expand_row(tr)) and len(cells) >= len(headers)]
+    constructor = next((h for h in CONSTRUCTOR_HEADERS if h in column), None)
+    # Footer rows are already gone (expand_row gives None); every other row is a result. Pages often omit
+    # the trailing empty cells (e.g. no Points cell for a non-scorer), so short rows are padded, not dropped.
+    body = [cells for tr in table.find_all("tr")[1:] if (cells := expand_row(tr))]
     if _rider_and_team_swapped(body, column):
         log.warning("race_parser.swapped_headers", heading=session.value)
         column["Rider"], column["Team"] = column["Team"], column["Rider"]
+    min_cells = max(column["Pos"], column["Rider"]) + 1
     rows: list[ResultRow] = []
     for cells in body:
+        if len(cells) < min_cells:
+            raise ValueError(f"Result row too short to hold a rider: {[cell_text(c) for c in cells]}")
 
-        def text(name: str, cells: list[Tag] = cells) -> str:
-            return cell_text(cells[column[name]]) if name in column else ""
+        def text(name: str | None, cells: list[Tag] = cells) -> str:
+            index = column.get(name) if name is not None else None
+            return cell_text(cells[index]) if index is not None and index < len(cells) else ""
 
         position, status = _position_and_status(text("Pos"))
         rider_cell = cells[column["Rider"]]
@@ -98,13 +104,21 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
                 rider_has_article=has_article,
                 bike_number=_int_or_none(text("No")),
                 team=text("Team"),
-                constructor=cell_text(cells[constructor_col]) if constructor_col is not None else "",
+                constructor=text(constructor),
                 laps=_int_or_none(text("Laps")),
                 grid=_int_or_none(text("Grid")),
                 points=_points(text("Points")),
             )
         )
+    _check_positions(rows)
     return rows
+
+
+def _check_positions(rows: list[ResultRow]) -> None:
+    """Classified positions must run 1..n: a gap means a result row was lost or misread."""
+    positions = sorted(r.position for r in rows if r.position is not None)
+    if positions != list(range(1, len(positions) + 1)):
+        raise ValueError(f"Classified positions are not contiguous: {positions}")
 
 
 def _rider_and_team_swapped(body: list[list[Tag]], column: dict[str, int]) -> bool:
@@ -113,7 +127,8 @@ def _rider_and_team_swapped(body: list[list[Tag]], column: dict[str, int]) -> bo
         return False
 
     def flags(name: str) -> int:
-        return sum(cells[column[name]].select_one(FLAG_SELECTOR) is not None for cells in body)
+        index = column[name]
+        return sum(index < len(cells) and cells[index].select_one(FLAG_SELECTOR) is not None for cells in body)
 
     return flags("Rider") == 0 and flags("Team") > 0
 

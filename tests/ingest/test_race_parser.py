@@ -4,7 +4,7 @@ import pytest
 
 from paddock.ingest.race_parser import parse_gp_results
 from paddock.models import ResultRow, ResultStatus, SessionType
-from tests.wiki_fixtures import JAPAN_2002, QATAR_2024, SPAIN_2005, SPAIN_2022, USA_2011, load_fixture
+from tests.wiki_fixtures import ITALY_2022, JAPAN_2002, QATAR_2024, SPAIN_2005, SPAIN_2022, USA_2011, load_fixture
 
 HEADER = (
     "<tr><th>Pos.</th><th>No.</th><th>Rider</th><th>Team</th><th>Constructor</th>"
@@ -178,3 +178,29 @@ def test_2011_usa_swapped_rider_and_team_headers_are_corrected():
     # The page's header says "Team, Rider" but its rows hold rider then team; riders carry a flag icon.
     winner = next(r for r in parse_gp_results(load_fixture(USA_2011)) if r.position == 1)
     assert (winner.rider_name, winner.rider_link, winner.team) == ("Casey Stoner", "Casey Stoner", "Repsol Honda Team")
+
+
+def test_2022_italy_row_without_points_cell_is_kept():
+    rows = [r for r in parse_gp_results(load_fixture(ITALY_2022)) if r.session is SessionType.RACE]
+    assert sorted(r.position for r in rows if r.position is not None) == list(range(1, 23))
+    morbidelli = next(r for r in rows if r.rider_name == "Franco Morbidelli")
+    assert (morbidelli.position, morbidelli.grid, morbidelli.points) == (17, 23, Decimal(0))
+
+
+def test_row_missing_trailing_cells_gets_empty_values():
+    short = (
+        f'<th>Ret</th><td>7</td><td>{FLAG}<a href="/wiki/Some_Rider">Some Rider</a></td><td>Team X</td>'
+        "<td>Honda</td><td>5</td><td>Accident</td>"
+    )
+    result = only_row(synthetic_page(short))
+    assert (result.status, result.laps, result.grid, result.points) == (ResultStatus.RET, 5, None, Decimal(0))
+
+
+def test_row_too_short_to_hold_a_rider_fails_loudly():
+    with pytest.raises(ValueError, match="too short"):
+        parse_gp_results(synthetic_page("<th>1</th><td>7</td>"))
+
+
+def test_gap_in_classified_positions_fails_loudly():
+    with pytest.raises(ValueError, match="not contiguous"):
+        parse_gp_results(synthetic_page(row("1"), row("3")))

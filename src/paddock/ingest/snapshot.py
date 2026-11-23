@@ -65,6 +65,8 @@ def build_snapshot(client: WikiSource, cache: HtmlCache, today: date, first_seas
     for year in range(first_season, today.year + 1):
         season = _collect_season(client, cache, year)
         if season is None:
+            if year < today.year:
+                raise SnapshotError(f"No Wikipedia article for past season {year}: {season_page_title(year)!r}")
             break
         if season.problems:
             if year >= today.year:

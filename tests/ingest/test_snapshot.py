@@ -235,3 +235,11 @@ def test_known_cancelled_race_is_kept_without_error(cache):
 
     events = [(p.title, p.round) for p in manifest.pages if p.kind is PageKind.EVENT]
     assert events == [("2011 A motorcycle Grand Prix", 1), ("2011 Malaysian motorcycle Grand Prix", 2)]
+
+
+def test_missing_past_season_page_raises_with_title(cache):  # Review Focus 5
+    fake = FakeWikiClient()
+    add_complete_2005(fake)
+
+    with pytest.raises(SnapshotError, match="2006 Grand Prix motorcycle racing season"):
+        build_snapshot(fake, cache, today=date(2008, 1, 1), first_season=2005)
