@@ -1,0 +1,4301 @@
+{
+  "first_season": 2002,
+  "last_season": 2025,
+  "pages": [
+    {
+      "kind": "season",
+      "revid": 1384029490,
+      "round": null,
+      "season": 2002,
+      "title": "2002 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101181,
+      "round": 1,
+      "season": 2002,
+      "title": "2002 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368199042,
+      "round": 2,
+      "season": 2002,
+      "title": "2002 South African motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101195,
+      "round": 3,
+      "season": 2002,
+      "title": "2002 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368166122,
+      "round": 4,
+      "season": 2002,
+      "title": "2002 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101210,
+      "round": 5,
+      "season": 2002,
+      "title": "2002 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369601255,
+      "round": 6,
+      "season": 2002,
+      "title": "2002 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368157988,
+      "round": 7,
+      "season": 2002,
+      "title": "2002 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101237,
+      "round": 8,
+      "season": 2002,
+      "title": "2002 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101246,
+      "round": 9,
+      "season": 2002,
+      "title": "2002 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168114,
+      "round": 10,
+      "season": 2002,
+      "title": "2002 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101263,
+      "round": 11,
+      "season": 2002,
+      "title": "2002 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101271,
+      "round": 12,
+      "season": 2002,
+      "title": "2002 Rio de Janeiro motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368185584,
+      "round": 13,
+      "season": 2002,
+      "title": "2002 Pacific motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368174972,
+      "round": 14,
+      "season": 2002,
+      "title": "2002 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101290,
+      "round": 15,
+      "season": 2002,
+      "title": "2002 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368217474,
+      "round": 16,
+      "season": 2002,
+      "title": "2002 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1373574739,
+      "round": null,
+      "season": 2003,
+      "title": "2003 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101303,
+      "round": 1,
+      "season": 2003,
+      "title": "2003 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368327519,
+      "round": 2,
+      "season": 2003,
+      "title": "2003 South African motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368328390,
+      "round": 3,
+      "season": 2003,
+      "title": "2003 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368296231,
+      "round": 4,
+      "season": 2003,
+      "title": "2003 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368299063,
+      "round": 5,
+      "season": 2003,
+      "title": "2003 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368283255,
+      "round": 6,
+      "season": 2003,
+      "title": "2003 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371097557,
+      "round": 7,
+      "season": 2003,
+      "title": "2003 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1368280269,
+      "round": 8,
+      "season": 2003,
+      "title": "2003 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1378548890,
+      "round": 9,
+      "season": 2003,
+      "title": "2003 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168127,
+      "round": 10,
+      "season": 2003,
+      "title": "2003 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368319459,
+      "round": 11,
+      "season": 2003,
+      "title": "2003 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368320707,
+      "round": 12,
+      "season": 2003,
+      "title": "2003 Rio de Janeiro motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379588765,
+      "round": 13,
+      "season": 2003,
+      "title": "2003 Pacific motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368304193,
+      "round": 14,
+      "season": 2003,
+      "title": "2003 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368272534,
+      "round": 15,
+      "season": 2003,
+      "title": "2003 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368340987,
+      "round": 16,
+      "season": 2003,
+      "title": "2003 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1383485753,
+      "round": null,
+      "season": 2004,
+      "title": "2004 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354706,
+      "round": 1,
+      "season": 2004,
+      "title": "2004 South African motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354718,
+      "round": 2,
+      "season": 2004,
+      "title": "2004 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368436203,
+      "round": 3,
+      "season": 2004,
+      "title": "2004 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368448745,
+      "round": 4,
+      "season": 2004,
+      "title": "2004 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354753,
+      "round": 5,
+      "season": 2004,
+      "title": "2004 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1383485736,
+      "round": 6,
+      "season": 2004,
+      "title": "2004 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1368471789,
+      "round": 7,
+      "season": 2004,
+      "title": "2004 Rio de Janeiro motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372565810,
+      "round": 8,
+      "season": 2004,
+      "title": "2004 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354793,
+      "round": 9,
+      "season": 2004,
+      "title": "2004 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168136,
+      "round": 10,
+      "season": 2004,
+      "title": "2004 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354806,
+      "round": 11,
+      "season": 2004,
+      "title": "2004 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1382204393,
+      "round": 12,
+      "season": 2004,
+      "title": "2004 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354827,
+      "round": 13,
+      "season": 2004,
+      "title": "2004 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368452341,
+      "round": 14,
+      "season": 2004,
+      "title": "2004 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354845,
+      "round": 15,
+      "season": 2004,
+      "title": "2004 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354857,
+      "round": 16,
+      "season": 2004,
+      "title": "2004 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1383846918,
+      "round": null,
+      "season": 2005,
+      "title": "2005 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354866,
+      "round": 1,
+      "season": 2005,
+      "title": "2005 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368593798,
+      "round": 2,
+      "season": 2005,
+      "title": "2005 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354878,
+      "round": 3,
+      "season": 2005,
+      "title": "2005 Chinese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1382359249,
+      "round": 4,
+      "season": 2005,
+      "title": "2005 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368567835,
+      "round": 5,
+      "season": 2005,
+      "title": "2005 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354916,
+      "round": 6,
+      "season": 2005,
+      "title": "2005 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387338038,
+      "round": 7,
+      "season": 2005,
+      "title": "2005 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1369231029,
+      "round": 8,
+      "season": 2005,
+      "title": "2005 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354937,
+      "round": 9,
+      "season": 2005,
+      "title": "2005 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354950,
+      "round": 10,
+      "season": 2005,
+      "title": "2005 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168139,
+      "round": 11,
+      "season": 2005,
+      "title": "2005 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368568382,
+      "round": 12,
+      "season": 2005,
+      "title": "2005 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368573055,
+      "round": 13,
+      "season": 2005,
+      "title": "2005 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367354990,
+      "round": 14,
+      "season": 2005,
+      "title": "2005 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368533563,
+      "round": 15,
+      "season": 2005,
+      "title": "2005 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367355008,
+      "round": 16,
+      "season": 2005,
+      "title": "2005 Turkish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1380518991,
+      "round": 17,
+      "season": 2005,
+      "title": "2005 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1383485750,
+      "round": null,
+      "season": 2006,
+      "title": "2006 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1386902100,
+      "round": 1,
+      "season": 2006,
+      "title": "2006 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368773045,
+      "round": 2,
+      "season": 2006,
+      "title": "2006 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1383846953,
+      "round": 3,
+      "season": 2006,
+      "title": "2006 Turkish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368685932,
+      "round": 4,
+      "season": 2006,
+      "title": "2006 Chinese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368711443,
+      "round": 5,
+      "season": 2006,
+      "title": "2006 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368732813,
+      "round": 6,
+      "season": 2006,
+      "title": "2006 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370600247,
+      "round": 7,
+      "season": 2006,
+      "title": "2006 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1383485740,
+      "round": 8,
+      "season": 2006,
+      "title": "2006 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1368672800,
+      "round": 9,
+      "season": 2006,
+      "title": "2006 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368714679,
+      "round": 10,
+      "season": 2006,
+      "title": "2006 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1320096742,
+      "round": 11,
+      "season": 2006,
+      "title": "2006 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168145,
+      "round": 12,
+      "season": 2006,
+      "title": "2006 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367355069,
+      "round": 13,
+      "season": 2006,
+      "title": "2006 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1375036429,
+      "round": 14,
+      "season": 2006,
+      "title": "2006 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368733414,
+      "round": 15,
+      "season": 2006,
+      "title": "2006 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368770686,
+      "round": 16,
+      "season": 2006,
+      "title": "2006 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368811936,
+      "round": 17,
+      "season": 2006,
+      "title": "2006 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1383847002,
+      "round": null,
+      "season": 2007,
+      "title": "2007 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1368987430,
+      "round": 1,
+      "season": 2007,
+      "title": "2007 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366100783,
+      "round": 2,
+      "season": 2007,
+      "title": "2007 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369019033,
+      "round": 3,
+      "season": 2007,
+      "title": "2007 Turkish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368900537,
+      "round": 4,
+      "season": 2007,
+      "title": "2007 Chinese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368926010,
+      "round": 5,
+      "season": 2007,
+      "title": "2007 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366100804,
+      "round": 6,
+      "season": 2007,
+      "title": "2007 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368897493,
+      "round": 7,
+      "season": 2007,
+      "title": "2007 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368891705,
+      "round": 8,
+      "season": 2007,
+      "title": "2007 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366100825,
+      "round": 9,
+      "season": 2007,
+      "title": "2007 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1368928659,
+      "round": 10,
+      "season": 2007,
+      "title": "2007 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313194927,
+      "round": 11,
+      "season": 2007,
+      "title": "2007 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168147,
+      "round": 12,
+      "season": 2007,
+      "title": "2007 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615809,
+      "round": 13,
+      "season": 2007,
+      "title": "2007 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366100901,
+      "round": 14,
+      "season": 2007,
+      "title": "2007 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368937963,
+      "round": 15,
+      "season": 2007,
+      "title": "2007 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367525869,
+      "round": 16,
+      "season": 2007,
+      "title": "2007 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1368948282,
+      "round": 17,
+      "season": 2007,
+      "title": "2007 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369025725,
+      "round": 18,
+      "season": 2007,
+      "title": "2007 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1372079657,
+      "round": null,
+      "season": 2008,
+      "title": "2008 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1369256539,
+      "round": 1,
+      "season": 2008,
+      "title": "2008 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369275024,
+      "round": 2,
+      "season": 2008,
+      "title": "2008 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369254771,
+      "round": 3,
+      "season": 2008,
+      "title": "2008 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366100977,
+      "round": 4,
+      "season": 2008,
+      "title": "2008 Chinese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366100982,
+      "round": 5,
+      "season": 2008,
+      "title": "2008 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369191247,
+      "round": 6,
+      "season": 2008,
+      "title": "2008 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369149809,
+      "round": 7,
+      "season": 2008,
+      "title": "2008 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369140546,
+      "round": 8,
+      "season": 2008,
+      "title": "2008 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369168817,
+      "round": 9,
+      "season": 2008,
+      "title": "2008 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101161,
+      "round": 10,
+      "season": 2008,
+      "title": "2008 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1311252809,
+      "round": 11,
+      "season": 2008,
+      "title": "2008 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168158,
+      "round": 12,
+      "season": 2008,
+      "title": "2008 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615711,
+      "round": 13,
+      "season": 2008,
+      "title": "2008 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1380085498,
+      "round": 14,
+      "season": 2008,
+      "title": "2008 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379589555,
+      "round": 15,
+      "season": 2008,
+      "title": "2008 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369129655,
+      "round": 16,
+      "season": 2008,
+      "title": "2008 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101072,
+      "round": 17,
+      "season": 2008,
+      "title": "2008 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1366101046,
+      "round": 18,
+      "season": 2008,
+      "title": "2008 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1383807479,
+      "round": null,
+      "season": 2009,
+      "title": "2009 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1369597006,
+      "round": 1,
+      "season": 2009,
+      "title": "2009 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369525850,
+      "round": 2,
+      "season": 2009,
+      "title": "2009 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367355112,
+      "round": 3,
+      "season": 2009,
+      "title": "2009 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369499953,
+      "round": 4,
+      "season": 2009,
+      "title": "2009 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1381744569,
+      "round": 5,
+      "season": 2009,
+      "title": "2009 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367355145,
+      "round": 6,
+      "season": 2009,
+      "title": "2009 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367355162,
+      "round": 7,
+      "season": 2009,
+      "title": "2009 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1287033214,
+      "round": 8,
+      "season": 2009,
+      "title": "2009 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1367355170,
+      "round": 9,
+      "season": 2009,
+      "title": "2009 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1384639653,
+      "round": 10,
+      "season": 2009,
+      "title": "2009 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168162,
+      "round": 11,
+      "season": 2009,
+      "title": "2009 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369517821,
+      "round": 12,
+      "season": 2009,
+      "title": "2009 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615677,
+      "round": 13,
+      "season": 2009,
+      "title": "2009 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369594058,
+      "round": 14,
+      "season": 2009,
+      "title": "2009 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369463774,
+      "round": 15,
+      "season": 2009,
+      "title": "2009 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386442371,
+      "round": 16,
+      "season": 2009,
+      "title": "2009 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369635966,
+      "round": 17,
+      "season": 2009,
+      "title": "2009 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386892941,
+      "round": null,
+      "season": 2010,
+      "title": "2010 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1370104645,
+      "round": 1,
+      "season": 2010,
+      "title": "2010 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370125713,
+      "round": 2,
+      "season": 2010,
+      "title": "2010 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369979164,
+      "round": 3,
+      "season": 2010,
+      "title": "2010 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370006581,
+      "round": 4,
+      "season": 2010,
+      "title": "2010 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1381267280,
+      "round": 5,
+      "season": 2010,
+      "title": "2010 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369964212,
+      "round": 6,
+      "season": 2010,
+      "title": "2010 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1369939652,
+      "round": 7,
+      "season": 2010,
+      "title": "2010 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369985194,
+      "round": 8,
+      "season": 2010,
+      "title": "2010 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1287033127,
+      "round": 9,
+      "season": 2010,
+      "title": "2010 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168170,
+      "round": 10,
+      "season": 2010,
+      "title": "2010 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369999429,
+      "round": 11,
+      "season": 2010,
+      "title": "2010 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615649,
+      "round": 12,
+      "season": 2010,
+      "title": "2010 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369908557,
+      "round": 13,
+      "season": 2010,
+      "title": "2010 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379589745,
+      "round": 14,
+      "season": 2010,
+      "title": "2010 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1317698534,
+      "round": 15,
+      "season": 2010,
+      "title": "2010 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1315774976,
+      "round": 16,
+      "season": 2010,
+      "title": "2010 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370097951,
+      "round": 17,
+      "season": 2010,
+      "title": "2010 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370195852,
+      "round": 18,
+      "season": 2010,
+      "title": "2010 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386893311,
+      "round": null,
+      "season": 2011,
+      "title": "2011 Grand Prix motorcycle racing season"
+    },
+    {
+      "kind": "event",
+      "revid": 1370653531,
+      "round": 1,
+      "season": 2011,
+      "title": "2011 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372957015,
+      "round": 2,
+      "season": 2011,
+      "title": "2011 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370648932,
+      "round": 3,
+      "season": 2011,
+      "title": "2011 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370492305,
+      "round": 4,
+      "season": 2011,
+      "title": "2011 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370418999,
+      "round": 5,
+      "season": 2011,
+      "title": "2011 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370405547,
+      "round": 6,
+      "season": 2011,
+      "title": "2011 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1382203258,
+      "round": 7,
+      "season": 2011,
+      "title": "2011 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1370558808,
+      "round": 8,
+      "season": 2011,
+      "title": "2011 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370497626,
+      "round": 9,
+      "season": 2011,
+      "title": "2011 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1287032957,
+      "round": 10,
+      "season": 2011,
+      "title": "2011 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168177,
+      "round": 11,
+      "season": 2011,
+      "title": "2011 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370551524,
+      "round": 12,
+      "season": 2011,
+      "title": "2011 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615614,
+      "round": 13,
+      "season": 2011,
+      "title": "2011 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370385403,
+      "round": 14,
+      "season": 2011,
+      "title": "2011 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370560475,
+      "round": 15,
+      "season": 2011,
+      "title": "2011 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370393760,
+      "round": 16,
+      "season": 2011,
+      "title": "2011 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1381575933,
+      "round": 17,
+      "season": 2011,
+      "title": "2011 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370718928,
+      "round": 18,
+      "season": 2011,
+      "title": "2011 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386893508,
+      "round": null,
+      "season": 2012,
+      "title": "2012 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1371115687,
+      "round": 1,
+      "season": 2012,
+      "title": "2012 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371143757,
+      "round": 2,
+      "season": 2012,
+      "title": "2012 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1335170696,
+      "round": 3,
+      "season": 2012,
+      "title": "2012 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371025107,
+      "round": 4,
+      "season": 2012,
+      "title": "2012 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370936804,
+      "round": 5,
+      "season": 2012,
+      "title": "2012 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370926266,
+      "round": 6,
+      "season": 2012,
+      "title": "2012 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370993342,
+      "round": 7,
+      "season": 2012,
+      "title": "2012 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1371029023,
+      "round": 8,
+      "season": 2012,
+      "title": "2012 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371045932,
+      "round": 9,
+      "season": 2012,
+      "title": "2012 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371221665,
+      "round": 10,
+      "season": 2012,
+      "title": "2012 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371043212,
+      "round": 11,
+      "season": 2012,
+      "title": "2012 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168179,
+      "round": 12,
+      "season": 2012,
+      "title": "2012 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615583,
+      "round": 13,
+      "season": 2012,
+      "title": "2012 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370906382,
+      "round": 14,
+      "season": 2012,
+      "title": "2012 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379589871,
+      "round": 15,
+      "season": 2012,
+      "title": "2012 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371056035,
+      "round": 16,
+      "season": 2012,
+      "title": "2012 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370917123,
+      "round": 17,
+      "season": 2012,
+      "title": "2012 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371225370,
+      "round": 18,
+      "season": 2012,
+      "title": "2012 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386893850,
+      "round": null,
+      "season": 2013,
+      "title": "2013 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1371595786,
+      "round": 1,
+      "season": 2013,
+      "title": "2013 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313194393,
+      "round": 2,
+      "season": 2013,
+      "title": "2013 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1371618251,
+      "round": 3,
+      "season": 2013,
+      "title": "2013 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371493109,
+      "round": 4,
+      "season": 2013,
+      "title": "2013 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371514048,
+      "round": 5,
+      "season": 2013,
+      "title": "2013 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1298709700,
+      "round": 6,
+      "season": 2013,
+      "title": "2013 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371476499,
+      "round": 7,
+      "season": 2013,
+      "title": "2013 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1236347367,
+      "round": 8,
+      "season": 2013,
+      "title": "2013 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371644568,
+      "round": 9,
+      "season": 2013,
+      "title": "2013 United States motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371508281,
+      "round": 10,
+      "season": 2013,
+      "title": "2013 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168187,
+      "round": 11,
+      "season": 2013,
+      "title": "2013 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371427798,
+      "round": 12,
+      "season": 2013,
+      "title": "2013 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615553,
+      "round": 13,
+      "season": 2013,
+      "title": "2013 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371412823,
+      "round": 14,
+      "season": 2013,
+      "title": "2013 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371532548,
+      "round": 15,
+      "season": 2013,
+      "title": "2013 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371417812,
+      "round": 16,
+      "season": 2013,
+      "title": "2013 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379589939,
+      "round": 17,
+      "season": 2013,
+      "title": "2013 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386614408,
+      "round": 18,
+      "season": 2013,
+      "title": "2013 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386894306,
+      "round": null,
+      "season": 2014,
+      "title": "2014 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1372063970,
+      "round": 1,
+      "season": 2014,
+      "title": "2014 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313194333,
+      "round": 2,
+      "season": 2014,
+      "title": "2014 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1371814945,
+      "round": 3,
+      "season": 2014,
+      "title": "2014 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372087384,
+      "round": 4,
+      "season": 2014,
+      "title": "2014 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371899352,
+      "round": 5,
+      "season": 2014,
+      "title": "2014 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371951736,
+      "round": 6,
+      "season": 2014,
+      "title": "2014 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371844046,
+      "round": 7,
+      "season": 2014,
+      "title": "2014 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371874813,
+      "round": 8,
+      "season": 2014,
+      "title": "2014 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1371901744,
+      "round": 9,
+      "season": 2014,
+      "title": "2014 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1364087684,
+      "round": 10,
+      "season": 2014,
+      "title": "2014 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168193,
+      "round": 11,
+      "season": 2014,
+      "title": "2014 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1150489599,
+      "round": 12,
+      "season": 2014,
+      "title": "2014 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615526,
+      "round": 13,
+      "season": 2014,
+      "title": "2014 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371814063,
+      "round": 14,
+      "season": 2014,
+      "title": "2014 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379590048,
+      "round": 15,
+      "season": 2014,
+      "title": "2014 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371820993,
+      "round": 16,
+      "season": 2014,
+      "title": "2014 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1371974604,
+      "round": 17,
+      "season": 2014,
+      "title": "2014 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386614381,
+      "round": 18,
+      "season": 2014,
+      "title": "2014 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386894489,
+      "round": null,
+      "season": 2015,
+      "title": "2015 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1372761582,
+      "round": 1,
+      "season": 2015,
+      "title": "2015 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313194281,
+      "round": 2,
+      "season": 2015,
+      "title": "2015 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1313454070,
+      "round": 3,
+      "season": 2015,
+      "title": "2015 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372811710,
+      "round": 4,
+      "season": 2015,
+      "title": "2015 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372581752,
+      "round": 5,
+      "season": 2015,
+      "title": "2015 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379341623,
+      "round": 6,
+      "season": 2015,
+      "title": "2015 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372525133,
+      "round": 7,
+      "season": 2015,
+      "title": "2015 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372560540,
+      "round": 8,
+      "season": 2015,
+      "title": "2015 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1372584104,
+      "round": 9,
+      "season": 2015,
+      "title": "2015 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372638352,
+      "round": 10,
+      "season": 2015,
+      "title": "2015 Indianapolis motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168197,
+      "round": 11,
+      "season": 2015,
+      "title": "2015 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372512143,
+      "round": 12,
+      "season": 2015,
+      "title": "2015 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615498,
+      "round": 13,
+      "season": 2015,
+      "title": "2015 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372458444,
+      "round": 14,
+      "season": 2015,
+      "title": "2015 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372645491,
+      "round": 15,
+      "season": 2015,
+      "title": "2015 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372469521,
+      "round": 16,
+      "season": 2015,
+      "title": "2015 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372674264,
+      "round": 17,
+      "season": 2015,
+      "title": "2015 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1372868597,
+      "round": 18,
+      "season": 2015,
+      "title": "2015 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386894929,
+      "round": null,
+      "season": 2016,
+      "title": "2016 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1358801655,
+      "round": 1,
+      "season": 2016,
+      "title": "2016 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1373111788,
+      "round": 2,
+      "season": 2016,
+      "title": "2016 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313194252,
+      "round": 3,
+      "season": 2016,
+      "title": "2016 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1373335274,
+      "round": 4,
+      "season": 2016,
+      "title": "2016 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1373201670,
+      "round": 5,
+      "season": 2016,
+      "title": "2016 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379341474,
+      "round": 6,
+      "season": 2016,
+      "title": "2016 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1291972815,
+      "round": 7,
+      "season": 2016,
+      "title": "2016 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1373173991,
+      "round": 8,
+      "season": 2016,
+      "title": "2016 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1373206373,
+      "round": 9,
+      "season": 2016,
+      "title": "2016 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1373120607,
+      "round": 10,
+      "season": 2016,
+      "title": "2016 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168202,
+      "round": 11,
+      "season": 2016,
+      "title": "2016 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1358646640,
+      "round": 12,
+      "season": 2016,
+      "title": "2016 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615467,
+      "round": 13,
+      "season": 2016,
+      "title": "2016 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1236354282,
+      "round": 14,
+      "season": 2016,
+      "title": "2016 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1286342280,
+      "round": 15,
+      "season": 2016,
+      "title": "2016 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342183546,
+      "round": 16,
+      "season": 2016,
+      "title": "2016 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1163622960,
+      "round": 17,
+      "season": 2016,
+      "title": "2016 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1163784952,
+      "round": 18,
+      "season": 2016,
+      "title": "2016 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386895147,
+      "round": null,
+      "season": 2017,
+      "title": "2017 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1338016536,
+      "round": 1,
+      "season": 2017,
+      "title": "2017 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1280012435,
+      "round": 2,
+      "season": 2017,
+      "title": "2017 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1274443751,
+      "round": 3,
+      "season": 2017,
+      "title": "2017 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1328564510,
+      "round": 4,
+      "season": 2017,
+      "title": "2017 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1163994184,
+      "round": 5,
+      "season": 2017,
+      "title": "2017 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379341421,
+      "round": 6,
+      "season": 2017,
+      "title": "2017 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1195380391,
+      "round": 7,
+      "season": 2017,
+      "title": "2017 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1294815589,
+      "round": 8,
+      "season": 2017,
+      "title": "2017 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1385529557,
+      "round": 9,
+      "season": 2017,
+      "title": "2017 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168212,
+      "round": 10,
+      "season": 2017,
+      "title": "2017 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1236354283,
+      "round": 11,
+      "season": 2017,
+      "title": "2017 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1177558331,
+      "round": 12,
+      "season": 2017,
+      "title": "2017 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615442,
+      "round": 13,
+      "season": 2017,
+      "title": "2017 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1184951292,
+      "round": 14,
+      "season": 2017,
+      "title": "2017 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164023645,
+      "round": 15,
+      "season": 2017,
+      "title": "2017 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1363989344,
+      "round": 16,
+      "season": 2017,
+      "title": "2017 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164046159,
+      "round": 17,
+      "season": 2017,
+      "title": "2017 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386614324,
+      "round": 18,
+      "season": 2017,
+      "title": "2017 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386895365,
+      "round": null,
+      "season": 2018,
+      "title": "2018 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1164669225,
+      "round": 1,
+      "season": 2018,
+      "title": "2018 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1311638032,
+      "round": 2,
+      "season": 2018,
+      "title": "2018 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313194215,
+      "round": 3,
+      "season": 2018,
+      "title": "2018 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1184602752,
+      "round": 4,
+      "season": 2018,
+      "title": "2018 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164563785,
+      "round": 5,
+      "season": 2018,
+      "title": "2018 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379341377,
+      "round": 6,
+      "season": 2018,
+      "title": "2018 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164489870,
+      "round": 7,
+      "season": 2018,
+      "title": "2018 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1294815700,
+      "round": 8,
+      "season": 2018,
+      "title": "2018 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1164569906,
+      "round": 9,
+      "season": 2018,
+      "title": "2018 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168218,
+      "round": 10,
+      "season": 2018,
+      "title": "2018 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1306749973,
+      "round": 11,
+      "season": 2018,
+      "title": "2018 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1241592441,
+      "round": 12,
+      "season": 2018,
+      "title": "2018 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615410,
+      "round": 13,
+      "season": 2018,
+      "title": "2018 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1184951348,
+      "round": 14,
+      "season": 2018,
+      "title": "2018 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1315514155,
+      "round": 15,
+      "season": 2018,
+      "title": "2018 Thailand motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379615870,
+      "round": 16,
+      "season": 2018,
+      "title": "2018 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1326289050,
+      "round": 17,
+      "season": 2018,
+      "title": "2018 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1346973750,
+      "round": 18,
+      "season": 2018,
+      "title": "2018 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386614279,
+      "round": 19,
+      "season": 2018,
+      "title": "2018 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386897359,
+      "round": null,
+      "season": 2019,
+      "title": "2019 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1363458015,
+      "round": 1,
+      "season": 2019,
+      "title": "2019 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1305121207,
+      "round": 2,
+      "season": 2019,
+      "title": "2019 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1274445021,
+      "round": 3,
+      "season": 2019,
+      "title": "2019 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1184602788,
+      "round": 4,
+      "season": 2019,
+      "title": "2019 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1288236350,
+      "round": 5,
+      "season": 2019,
+      "title": "2019 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1313506863,
+      "round": 6,
+      "season": 2019,
+      "title": "2019 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164916496,
+      "round": 7,
+      "season": 2019,
+      "title": "2019 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1206230419,
+      "round": 8,
+      "season": 2019,
+      "title": "2019 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1164953777,
+      "round": 9,
+      "season": 2019,
+      "title": "2019 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168223,
+      "round": 10,
+      "season": 2019,
+      "title": "2019 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164893637,
+      "round": 11,
+      "season": 2019,
+      "title": "2019 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1167655414,
+      "round": 12,
+      "season": 2019,
+      "title": "2019 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615374,
+      "round": 13,
+      "season": 2019,
+      "title": "2019 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1184951396,
+      "round": 14,
+      "season": 2019,
+      "title": "2019 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1182056475,
+      "round": 15,
+      "season": 2019,
+      "title": "2019 Thailand motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1164970023,
+      "round": 16,
+      "season": 2019,
+      "title": "2019 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1338672976,
+      "round": 17,
+      "season": 2019,
+      "title": "2019 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1376836292,
+      "round": 18,
+      "season": 2019,
+      "title": "2019 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386614234,
+      "round": 19,
+      "season": 2019,
+      "title": "2019 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386897911,
+      "round": null,
+      "season": 2020,
+      "title": "2020 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1375601001,
+      "round": 1,
+      "season": 2020,
+      "title": "2020 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1284914546,
+      "round": 2,
+      "season": 2020,
+      "title": "2020 Andalusian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168231,
+      "round": 3,
+      "season": 2020,
+      "title": "2020 Czech Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1339624164,
+      "round": 4,
+      "season": 2020,
+      "title": "2020 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1179943013,
+      "round": 5,
+      "season": 2020,
+      "title": "2020 Styrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615269,
+      "round": 6,
+      "season": 2020,
+      "title": "2020 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615314,
+      "round": 7,
+      "season": 2020,
+      "title": "2020 Emilia Romagna and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1195668502,
+      "round": 8,
+      "season": 2020,
+      "title": "2020 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1375498664,
+      "round": 9,
+      "season": 2020,
+      "title": "2020 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1184951458,
+      "round": 10,
+      "season": 2020,
+      "title": "2020 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1375613242,
+      "round": 11,
+      "season": 2020,
+      "title": "2020 Teruel motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1375481704,
+      "round": 12,
+      "season": 2020,
+      "title": "2020 European motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1375654925,
+      "round": 13,
+      "season": 2020,
+      "title": "2020 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379339865,
+      "round": 14,
+      "season": 2020,
+      "title": "2020 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386898495,
+      "round": null,
+      "season": 2021,
+      "title": "2021 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1342446963,
+      "round": 1,
+      "season": 2021,
+      "title": "2021 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1381366136,
+      "round": 2,
+      "season": 2021,
+      "title": "2021 Doha motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379339830,
+      "round": 3,
+      "season": 2021,
+      "title": "2021 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342446973,
+      "round": 4,
+      "season": 2021,
+      "title": "2021 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1359690725,
+      "round": 5,
+      "season": 2021,
+      "title": "2021 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379273498,
+      "round": 6,
+      "season": 2021,
+      "title": "2021 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447043,
+      "round": 7,
+      "season": 2021,
+      "title": "2021 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447055,
+      "round": 8,
+      "season": 2021,
+      "title": "2021 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447063,
+      "round": 9,
+      "season": 2021,
+      "title": "2021 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447155,
+      "round": 10,
+      "season": 2021,
+      "title": "2021 Styrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1375779397,
+      "round": 11,
+      "season": 2021,
+      "title": "2021 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447078,
+      "round": 12,
+      "season": 2021,
+      "title": "2021 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447087,
+      "round": 13,
+      "season": 2021,
+      "title": "2021 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615193,
+      "round": 14,
+      "season": 2021,
+      "title": "2021 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1369887620,
+      "round": 15,
+      "season": 2021,
+      "title": "2021 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447176,
+      "round": 16,
+      "season": 2021,
+      "title": "2021 Emilia Romagna motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379340066,
+      "round": 17,
+      "season": 2021,
+      "title": "2021 Algarve motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447099,
+      "round": 18,
+      "season": 2021,
+      "title": "2021 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386899057,
+      "round": null,
+      "season": 2022,
+      "title": "2022 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447575,
+      "round": 1,
+      "season": 2022,
+      "title": "2022 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379340274,
+      "round": 2,
+      "season": 2022,
+      "title": "2022 Indonesian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447716,
+      "round": 3,
+      "season": 2022,
+      "title": "2022 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447719,
+      "round": 4,
+      "season": 2022,
+      "title": "2022 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1379339914,
+      "round": 5,
+      "season": 2022,
+      "title": "2022 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447742,
+      "round": 6,
+      "season": 2022,
+      "title": "2022 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447758,
+      "round": 7,
+      "season": 2022,
+      "title": "2022 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1376553884,
+      "round": 8,
+      "season": 2022,
+      "title": "2022 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447800,
+      "round": 9,
+      "season": 2022,
+      "title": "2022 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447806,
+      "round": 10,
+      "season": 2022,
+      "title": "2022 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1256891362,
+      "round": 11,
+      "season": 2022,
+      "title": "2022 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1376394925,
+      "round": 12,
+      "season": 2022,
+      "title": "2022 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1363000829,
+      "round": 13,
+      "season": 2022,
+      "title": "2022 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615147,
+      "round": 14,
+      "season": 2022,
+      "title": "2022 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1376365491,
+      "round": 15,
+      "season": 2022,
+      "title": "2022 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447877,
+      "round": 16,
+      "season": 2022,
+      "title": "2022 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447883,
+      "round": 17,
+      "season": 2022,
+      "title": "2022 Thailand motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447894,
+      "round": 18,
+      "season": 2022,
+      "title": "2022 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447902,
+      "round": 19,
+      "season": 2022,
+      "title": "2022 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1342447912,
+      "round": 20,
+      "season": 2022,
+      "title": "2022 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386900945,
+      "round": null,
+      "season": 2023,
+      "title": "2023 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1379339941,
+      "round": 1,
+      "season": 2023,
+      "title": "2023 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347527353,
+      "round": 2,
+      "season": 2023,
+      "title": "2023 Argentine Republic motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347527394,
+      "round": 3,
+      "season": 2023,
+      "title": "2023 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1347527502,
+      "round": 4,
+      "season": 2023,
+      "title": "2023 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347527943,
+      "round": 5,
+      "season": 2023,
+      "title": "2023 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347527974,
+      "round": 6,
+      "season": 2023,
+      "title": "2023 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528023,
+      "round": 7,
+      "season": 2023,
+      "title": "2023 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528191,
+      "round": 8,
+      "season": 2023,
+      "title": "2023 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1349220752,
+      "round": 9,
+      "season": 2023,
+      "title": "2023 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528264,
+      "round": 10,
+      "season": 2023,
+      "title": "2023 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528364,
+      "round": 11,
+      "season": 2023,
+      "title": "2023 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615117,
+      "round": 12,
+      "season": 2023,
+      "title": "2023 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528493,
+      "round": 13,
+      "season": 2023,
+      "title": "2023 Indian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528592,
+      "round": 14,
+      "season": 2023,
+      "title": "2023 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379340234,
+      "round": 15,
+      "season": 2023,
+      "title": "2023 Indonesian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528891,
+      "round": 16,
+      "season": 2023,
+      "title": "2023 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347528934,
+      "round": 17,
+      "season": 2023,
+      "title": "2023 Thailand motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1354819911,
+      "round": 18,
+      "season": 2023,
+      "title": "2023 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347529080,
+      "round": 19,
+      "season": 2023,
+      "title": "2023 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347529111,
+      "round": 20,
+      "season": 2023,
+      "title": "2023 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386901932,
+      "round": null,
+      "season": 2024,
+      "title": "2024 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1377682352,
+      "round": 1,
+      "season": 2024,
+      "title": "2024 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379339967,
+      "round": 2,
+      "season": 2024,
+      "title": "2024 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1377682513,
+      "round": 3,
+      "season": 2024,
+      "title": "2024 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1377681874,
+      "round": 4,
+      "season": 2024,
+      "title": "2024 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347523505,
+      "round": 5,
+      "season": 2024,
+      "title": "2024 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347523535,
+      "round": 6,
+      "season": 2024,
+      "title": "2024 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1349844840,
+      "round": 7,
+      "season": 2024,
+      "title": "2024 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1349844879,
+      "round": 8,
+      "season": 2024,
+      "title": "2024 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1357092303,
+      "round": 9,
+      "season": 2024,
+      "title": "2024 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1349220844,
+      "round": 10,
+      "season": 2024,
+      "title": "2024 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347523601,
+      "round": 11,
+      "season": 2024,
+      "title": "2024 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347523772,
+      "round": 12,
+      "season": 2024,
+      "title": "2024 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615067,
+      "round": 13,
+      "season": 2024,
+      "title": "2024 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347525900,
+      "round": 14,
+      "season": 2024,
+      "title": "2024 Emilia Romagna motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379340207,
+      "round": 15,
+      "season": 2024,
+      "title": "2024 Indonesian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347525940,
+      "round": 16,
+      "season": 2024,
+      "title": "2024 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347525964,
+      "round": 17,
+      "season": 2024,
+      "title": "2024 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1354810177,
+      "round": 18,
+      "season": 2024,
+      "title": "2024 Thailand motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347526035,
+      "round": 19,
+      "season": 2024,
+      "title": "2024 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347526073,
+      "round": 20,
+      "season": 2024,
+      "title": "2024 Solidarity motorcycle Grand Prix"
+    },
+    {
+      "kind": "season",
+      "revid": 1386948379,
+      "round": null,
+      "season": 2025,
+      "title": "2025 MotoGP World Championship"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518021,
+      "round": 1,
+      "season": 2025,
+      "title": "2025 Thailand motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379910387,
+      "round": 2,
+      "season": 2025,
+      "title": "2025 Argentine motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1370272383,
+      "round": 3,
+      "season": 2025,
+      "title": "2025 Motorcycle Grand Prix of the Americas"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518178,
+      "round": 4,
+      "season": 2025,
+      "title": "2025 Qatar motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518234,
+      "round": 5,
+      "season": 2025,
+      "title": "2025 Spanish motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518264,
+      "round": 6,
+      "season": 2025,
+      "title": "2025 French motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1360075464,
+      "round": 7,
+      "season": 2025,
+      "title": "2025 British motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518342,
+      "round": 8,
+      "season": 2025,
+      "title": "2025 Aragon motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1378353920,
+      "round": 9,
+      "season": 2025,
+      "title": "2025 Italian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1360772410,
+      "round": 10,
+      "season": 2025,
+      "title": "2025 Dutch TT"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518469,
+      "round": 11,
+      "season": 2025,
+      "title": "2025 German motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1387168246,
+      "round": 12,
+      "season": 2025,
+      "title": "2025 Czech motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347518638,
+      "round": 13,
+      "season": 2025,
+      "title": "2025 Austrian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347519437,
+      "round": 14,
+      "season": 2025,
+      "title": "2025 Hungarian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347520432,
+      "round": 15,
+      "season": 2025,
+      "title": "2025 Catalan motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386615043,
+      "round": 16,
+      "season": 2025,
+      "title": "2025 San Marino and Rimini Riviera motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347520506,
+      "round": 17,
+      "season": 2025,
+      "title": "2025 Japanese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379986369,
+      "round": 18,
+      "season": 2025,
+      "title": "2025 Indonesian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1347521438,
+      "round": 19,
+      "season": 2025,
+      "title": "2025 Australian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1354810256,
+      "round": 20,
+      "season": 2025,
+      "title": "2025 Malaysian motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1379340014,
+      "round": 21,
+      "season": 2025,
+      "title": "2025 Portuguese motorcycle Grand Prix"
+    },
+    {
+      "kind": "event",
+      "revid": 1386614079,
+      "round": 22,
+      "season": 2025,
+      "title": "2025 Valencian Community motorcycle Grand Prix"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723997,
+      "round": null,
+      "season": null,
+      "title": "Aaron Yates (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724651,
+      "round": null,
+      "season": null,
+      "title": "Ai Ogura"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720905,
+      "round": null,
+      "season": null,
+      "title": "Akira Ryō"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720882,
+      "round": null,
+      "season": null,
+      "title": "Akira Yanagawa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720756,
+      "round": null,
+      "season": null,
+      "title": "Aleix Espargaró"
+    },
+    {
+      "kind": "rider",
+      "revid": 1385316913,
+      "round": null,
+      "season": null,
+      "title": "Alex Barros"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720668,
+      "round": null,
+      "season": null,
+      "title": "Alex Hofmann"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387082444,
+      "round": null,
+      "season": null,
+      "title": "Alex Lowes"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721389,
+      "round": null,
+      "season": null,
+      "title": "Alex de Angelis"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721281,
+      "round": null,
+      "season": null,
+      "title": "Andrea Dovizioso"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722285,
+      "round": null,
+      "season": null,
+      "title": "Andrea Iannone"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720483,
+      "round": null,
+      "season": null,
+      "title": "Andrew Pitt"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721090,
+      "round": null,
+      "season": null,
+      "title": "Anthony West (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724684,
+      "round": null,
+      "season": null,
+      "title": "Augusto Fernández (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720981,
+      "round": null,
+      "season": null,
+      "title": "Ben Spies"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723698,
+      "round": null,
+      "season": null,
+      "title": "Blake Young (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722948,
+      "round": null,
+      "season": null,
+      "title": "Brad Binder"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720865,
+      "round": null,
+      "season": null,
+      "title": "Bradley Smith (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722464,
+      "round": null,
+      "season": null,
+      "title": "Broc Parkes"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723616,
+      "round": null,
+      "season": null,
+      "title": "Bryan Staring"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721329,
+      "round": null,
+      "season": null,
+      "title": "Cal Crutchlow"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720520,
+      "round": null,
+      "season": null,
+      "title": "Carlos Checa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387316129,
+      "round": null,
+      "season": null,
+      "title": "Casey Stoner"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720687,
+      "round": null,
+      "season": null,
+      "title": "Chaz Davies"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720459,
+      "round": null,
+      "season": null,
+      "title": "Chris Vermeulen"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722759,
+      "round": null,
+      "season": null,
+      "title": "Claudio Corti (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720417,
+      "round": null,
+      "season": null,
+      "title": "Colin Edwards"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720318,
+      "round": null,
+      "season": null,
+      "title": "Daijiro Kato"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722866,
+      "round": null,
+      "season": null,
+      "title": "Damian Cudlin"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720388,
+      "round": null,
+      "season": null,
+      "title": "Dani Pedrosa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722879,
+      "round": null,
+      "season": null,
+      "title": "Danilo Petrucci"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724087,
+      "round": null,
+      "season": null,
+      "title": "Darryn Binder"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720431,
+      "round": null,
+      "season": null,
+      "title": "David Checa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723673,
+      "round": null,
+      "season": null,
+      "title": "David Salom"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387097703,
+      "round": null,
+      "season": null,
+      "title": "Enea Bastianini"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387344418,
+      "round": null,
+      "season": null,
+      "title": "Eugene Laverty"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724121,
+      "round": null,
+      "season": null,
+      "title": "Fabio Di Giannantonio"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723924,
+      "round": null,
+      "season": null,
+      "title": "Fabio Quartararo"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724942,
+      "round": null,
+      "season": null,
+      "title": "Fermín Aldeguer"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720823,
+      "round": null,
+      "season": null,
+      "title": "Fonsi Nieto"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723754,
+      "round": null,
+      "season": null,
+      "title": "Francesco Bagnaia"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722170,
+      "round": null,
+      "season": null,
+      "title": "Franco Battaini"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724135,
+      "round": null,
+      "season": null,
+      "title": "Franco Morbidelli"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724791,
+      "round": null,
+      "season": null,
+      "title": "Garrett Gerloff"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720476,
+      "round": null,
+      "season": null,
+      "title": "Garry McCoy"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720495,
+      "round": null,
+      "season": null,
+      "title": "Gregorio Lavilla"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387328011,
+      "round": null,
+      "season": null,
+      "title": "Gábor Talmácsi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722968,
+      "round": null,
+      "season": null,
+      "title": "Hafizh Syahrin"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721416,
+      "round": null,
+      "season": null,
+      "title": "Hiroshi Aoyama"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720771,
+      "round": null,
+      "season": null,
+      "title": "Héctor Barberá"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386761825,
+      "round": null,
+      "season": null,
+      "title": "Iker Lecuona"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721361,
+      "round": null,
+      "season": null,
+      "title": "Iván Silva (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387138573,
+      "round": null,
+      "season": null,
+      "title": "Jack Miller (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724594,
+      "round": null,
+      "season": null,
+      "title": "Jake Dixon"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720598,
+      "round": null,
+      "season": null,
+      "title": "James Ellison (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720503,
+      "round": null,
+      "season": null,
+      "title": "James Haydon"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720450,
+      "round": null,
+      "season": null,
+      "title": "James Toseland"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721468,
+      "round": null,
+      "season": null,
+      "title": "Jamie Hacking"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723705,
+      "round": null,
+      "season": null,
+      "title": "Javier del Amor"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387217699,
+      "round": null,
+      "season": null,
+      "title": "Jean-Michel Bayle"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721015,
+      "round": null,
+      "season": null,
+      "title": "Jeremy McWilliams"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723992,
+      "round": null,
+      "season": null,
+      "title": "Joan Mir"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722752,
+      "round": null,
+      "season": null,
+      "title": "Johann Zarco"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720439,
+      "round": null,
+      "season": null,
+      "title": "John Hopkins (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722538,
+      "round": null,
+      "season": null,
+      "title": "Jonas Folger"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720649,
+      "round": null,
+      "season": null,
+      "title": "Jonathan Rea"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387063516,
+      "round": null,
+      "season": null,
+      "title": "Jordi Torres"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720764,
+      "round": null,
+      "season": null,
+      "title": "Jorge Lorenzo"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387176470,
+      "round": null,
+      "season": null,
+      "title": "Jorge Martín"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721010,
+      "round": null,
+      "season": null,
+      "title": "Josh Hayes (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723511,
+      "round": null,
+      "season": null,
+      "title": "José David de Gea"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720783,
+      "round": null,
+      "season": null,
+      "title": "José Luis Cardoso"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720548,
+      "round": null,
+      "season": null,
+      "title": "Jurgen van den Goorbergh"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722474,
+      "round": null,
+      "season": null,
+      "title": "Karel Abraham"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722956,
+      "round": null,
+      "season": null,
+      "title": "Katsuyuki Nakasuga"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723160,
+      "round": null,
+      "season": null,
+      "title": "Kazuki Watanabe (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720608,
+      "round": null,
+      "season": null,
+      "title": "Kenny Roberts Jr."
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724283,
+      "round": null,
+      "season": null,
+      "title": "Kohta Nozane"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721404,
+      "round": null,
+      "season": null,
+      "title": "Kousuke Akiyoshi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721343,
+      "round": null,
+      "season": null,
+      "title": "Kurtis Roberts"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721289,
+      "round": null,
+      "season": null,
+      "title": "Leon Camier"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723184,
+      "round": null,
+      "season": null,
+      "title": "Lorenzo Savadori"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723613,
+      "round": null,
+      "season": null,
+      "title": "Loris Baz"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720481,
+      "round": null,
+      "season": null,
+      "title": "Loris Capirossi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724145,
+      "round": null,
+      "season": null,
+      "title": "Luca Marini"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723649,
+      "round": null,
+      "season": null,
+      "title": "Luca Scassa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721445,
+      "round": null,
+      "season": null,
+      "title": "Lukáš Pešek"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720672,
+      "round": null,
+      "season": null,
+      "title": "Makoto Tamada"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387368123,
+      "round": null,
+      "season": null,
+      "title": "Marc Márquez"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387103950,
+      "round": null,
+      "season": null,
+      "title": "Marco Bezzecchi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720414,
+      "round": null,
+      "season": null,
+      "title": "Marco Melandri"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721433,
+      "round": null,
+      "season": null,
+      "title": "Marco Simoncelli"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723665,
+      "round": null,
+      "season": null,
+      "title": "Martin Bauer (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387108549,
+      "round": null,
+      "season": null,
+      "title": "Mattia Pasini"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722853,
+      "round": null,
+      "season": null,
+      "title": "Maverick Viñales"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720390,
+      "round": null,
+      "season": null,
+      "title": "Max Biaggi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723703,
+      "round": null,
+      "season": null,
+      "title": "Michael Barnes (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720776,
+      "round": null,
+      "season": null,
+      "title": "Michael Laverty"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723010,
+      "round": null,
+      "season": null,
+      "title": "Michael van der Mark"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720818,
+      "round": null,
+      "season": null,
+      "title": "Michel Fabrizio"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722797,
+      "round": null,
+      "season": null,
+      "title": "Michele Pirro"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720859,
+      "round": null,
+      "season": null,
+      "title": "Miguel Duhamel"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722713,
+      "round": null,
+      "season": null,
+      "title": "Miguel Oliveira"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720773,
+      "round": null,
+      "season": null,
+      "title": "Mika Kallio"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722276,
+      "round": null,
+      "season": null,
+      "title": "Mike Di Meglio"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724461,
+      "round": null,
+      "season": null,
+      "title": "Mike Jones (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1381820194,
+      "round": null,
+      "season": null,
+      "title": "Naoki Matsudo"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720493,
+      "round": null,
+      "season": null,
+      "title": "Neil Hodgson"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722417,
+      "round": null,
+      "season": null,
+      "title": "Niccolò Canepa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720367,
+      "round": null,
+      "season": null,
+      "title": "Nicky Hayden"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723966,
+      "round": null,
+      "season": null,
+      "title": "Nicolò Bulega"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721600,
+      "round": null,
+      "season": null,
+      "title": "Nobuatsu Aoki"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720490,
+      "round": null,
+      "season": null,
+      "title": "Norifumi Abe"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720457,
+      "round": null,
+      "season": null,
+      "title": "Noriyuki Haga"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720910,
+      "round": null,
+      "season": null,
+      "title": "Olivier Jacque"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724845,
+      "round": null,
+      "season": null,
+      "title": "Pedro Acosta"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722271,
+      "round": null,
+      "season": null,
+      "title": "Pol Espargaró"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720828,
+      "round": null,
+      "season": null,
+      "title": "Randy de Puniet"
+    },
+    {
+      "kind": "rider",
+      "revid": 1387271198,
+      "round": null,
+      "season": null,
+      "title": "Raúl Fernández (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724201,
+      "round": null,
+      "season": null,
+      "title": "Remy Gardner"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720839,
+      "round": null,
+      "season": null,
+      "title": "Roberto Rolfo"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721277,
+      "round": null,
+      "season": null,
+      "title": "Roger Lee Hayden"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720705,
+      "round": null,
+      "season": null,
+      "title": "Rubén Xaus"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720527,
+      "round": null,
+      "season": null,
+      "title": "Ryuichi Kiyonari"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720681,
+      "round": null,
+      "season": null,
+      "title": "Régis Laconi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723646,
+      "round": null,
+      "season": null,
+      "title": "Sam Lowes"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722210,
+      "round": null,
+      "season": null,
+      "title": "Scott Redding"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720379,
+      "round": null,
+      "season": null,
+      "title": "Sete Gibernau"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720451,
+      "round": null,
+      "season": null,
+      "title": "Shane Byrne (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721339,
+      "round": null,
+      "season": null,
+      "title": "Shinichi Ito"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720665,
+      "round": null,
+      "season": null,
+      "title": "Shinya Nakano"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724756,
+      "round": null,
+      "season": null,
+      "title": "Somkiat Chantra"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722290,
+      "round": null,
+      "season": null,
+      "title": "Stefan Bradl"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723607,
+      "round": null,
+      "season": null,
+      "title": "Steve Rapp"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720939,
+      "round": null,
+      "season": null,
+      "title": "Sylvain Guintoli"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720794,
+      "round": null,
+      "season": null,
+      "title": "Tadayuki Okada"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722477,
+      "round": null,
+      "season": null,
+      "title": "Takaaki Nakagami"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723379,
+      "round": null,
+      "season": null,
+      "title": "Takumi Takahashi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724565,
+      "round": null,
+      "season": null,
+      "title": "Takuya Tsuda"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386724275,
+      "round": null,
+      "season": null,
+      "title": "Tetsuta Nagashima"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720798,
+      "round": null,
+      "season": null,
+      "title": "Tetsuya Harada"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720615,
+      "round": null,
+      "season": null,
+      "title": "Thomas Lüthi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720732,
+      "round": null,
+      "season": null,
+      "title": "Tito Rabat"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721304,
+      "round": null,
+      "season": null,
+      "title": "Tohru Ukawa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720837,
+      "round": null,
+      "season": null,
+      "title": "Toni Elías"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720473,
+      "round": null,
+      "season": null,
+      "title": "Troy Bayliss"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386922818,
+      "round": null,
+      "season": null,
+      "title": "Valentino Rossi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722686,
+      "round": null,
+      "season": null,
+      "title": "Wataru Yoshikawa"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722812,
+      "round": null,
+      "season": null,
+      "title": "Xavi Forés"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722864,
+      "round": null,
+      "season": null,
+      "title": "Xavier Siméon"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722802,
+      "round": null,
+      "season": null,
+      "title": "Yonny Hernández (motorcyclist)"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721742,
+      "round": null,
+      "season": null,
+      "title": "Youichi Ui"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386721977,
+      "round": null,
+      "season": null,
+      "title": "Yuki Takahashi"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720461,
+      "round": null,
+      "season": null,
+      "title": "Yukio Kagayama"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386723624,
+      "round": null,
+      "season": null,
+      "title": "Álex Márquez"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386722912,
+      "round": null,
+      "season": null,
+      "title": "Álex Rins"
+    },
+    {
+      "kind": "rider",
+      "revid": 1386720723,
+      "round": null,
+      "season": null,
+      "title": "Álvaro Bautista"
+    }
+  ],
+  "rider_aliases": {
+    "Alex De Angelis": "Alex de Angelis",
+    "Andrew Pitt (motorcyclist)": "Andrew Pitt",
+    "David de Gea (motorcyclist)": "José David de Gea",
+    "Javier Forés": "Xavi Forés",
+    "John Hopkins (motorcycle racer)": "John Hopkins (motorcyclist)",
+    "Marc Marquez": "Marc Márquez",
+    "Miguel Oliveira (motorcyclist)": "Miguel Oliveira",
+    "Randy De Puniet": "Randy de Puniet"
+  },
+  "snapshot_date": "2026-11-23"
+}

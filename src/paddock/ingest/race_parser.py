@@ -3,6 +3,7 @@
 import re
 from decimal import Decimal, InvalidOperation
 
+import structlog
 from bs4 import BeautifulSoup, Tag
 
 from paddock.ingest.html_utils import cell_text, expand_row, link_target
@@ -17,6 +18,7 @@ CONSTRUCTOR_HEADERS = ("Constructor", "Manufacturer")
 SPRINT_MARKER = "Sprint"
 PREMIER_CLASS_MARKER = "MotoGP"
 HEADING_TAGS = ("h2", "h3", "h4")
+FLAG_SELECTOR = "span.flagicon"
 
 #: non-numeric Pos. cell values, upper-cased
 STATUS_CODES = {
@@ -30,6 +32,8 @@ STATUS_CODES = {
     "WD": ResultStatus.WD,
 }
 
+
+log = structlog.get_logger()
 
 #: a parenthesised note after a status code: "Ret (13)" (order of retirement), "DSQ (Ret)"
 _STATUS_NOTE = re.compile(r"\s*\([^)]*\)$")
@@ -71,11 +75,12 @@ def _session_for(table: Tag) -> SessionType | None:
 def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[ResultRow]:
     column = {name: i for i, name in enumerate(headers)}
     constructor_col = next((column[h] for h in CONSTRUCTOR_HEADERS if h in column), None)
+    body = [cells for tr in table.find_all("tr")[1:] if (cells := expand_row(tr)) and len(cells) >= len(headers)]
+    if _rider_and_team_swapped(body, column):
+        log.warning("race_parser.swapped_headers", heading=session.value)
+        column["Rider"], column["Team"] = column["Team"], column["Rider"]
     rows: list[ResultRow] = []
-    for tr in table.find_all("tr")[1:]:
-        cells = expand_row(tr)
-        if cells is None or len(cells) < len(headers):
-            continue
+    for cells in body:
 
         def text(name: str, cells: list[Tag] = cells) -> str:
             return cell_text(cells[column[name]]) if name in column else ""
@@ -100,6 +105,17 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
             )
         )
     return rows
+
+
+def _rider_and_team_swapped(body: list[list[Tag]], column: dict[str, int]) -> bool:
+    """True when the header mislabels the columns: rider cells carry a flag icon, team cells never do."""
+    if "Team" not in column or not body:
+        return False
+
+    def flags(name: str) -> int:
+        return sum(cells[column[name]].select_one(FLAG_SELECTOR) is not None for cells in body)
+
+    return flags("Rider") == 0 and flags("Team") > 0
 
 
 def _position_and_status(value: str) -> tuple[int | None, ResultStatus]:

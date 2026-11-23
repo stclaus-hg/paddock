@@ -4,7 +4,7 @@ import pytest
 
 from paddock.ingest.race_parser import parse_gp_results
 from paddock.models import ResultRow, ResultStatus, SessionType
-from tests.wiki_fixtures import JAPAN_2002, QATAR_2024, SPAIN_2005, SPAIN_2022, load_fixture
+from tests.wiki_fixtures import JAPAN_2002, QATAR_2024, SPAIN_2005, SPAIN_2022, USA_2011, load_fixture
 
 HEADER = (
     "<tr><th>Pos.</th><th>No.</th><th>Rider</th><th>Team</th><th>Constructor</th>"
@@ -172,3 +172,9 @@ def test_2022_spain_rider_column_named_biker():
 def test_time_column_name_variants(time_header):
     html = synthetic_page(row("1")).replace("<th>Time/Retired</th>", f"<th>{time_header}</th>")
     assert only_row(html).position == 1
+
+
+def test_2011_usa_swapped_rider_and_team_headers_are_corrected():
+    # The page's header says "Team, Rider" but its rows hold rider then team; riders carry a flag icon.
+    winner = next(r for r in parse_gp_results(load_fixture(USA_2011)) if r.position == 1)
+    assert (winner.rider_name, winner.rider_link, winner.team) == ("Casey Stoner", "Casey Stoner", "Repsol Honda Team")
