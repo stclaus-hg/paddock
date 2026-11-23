@@ -47,3 +47,13 @@ class EventRef:
     season: int
     round: int
     wiki_title: str
+
+
+@dataclass(frozen=True)
+class BioSection:
+    ordinal: int  #: 0 is the lead section
+    heading_path: tuple[str, ...]  #: headings from the top level down; empty for the lead
+    text: str
+    year_from: int | None
+    year_to: int | None
+    team: str | None

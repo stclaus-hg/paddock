@@ -21,3 +21,18 @@ def test_expand_row_returns_none_for_full_width_footer():
 def test_expand_row_ignores_bad_colspan():
     tr = first_row('<tr><td colspan="x">a</td><td>b</td></tr>')
     assert [cell_text(c) for c in expand_row(tr)] == ["a", "b"]
+
+
+def cell(html: str) -> Tag:
+    tag = BeautifulSoup(html, "lxml").find("p")
+    assert isinstance(tag, Tag)
+    return tag
+
+
+def test_cell_text_keeps_punctuation_attached_to_links():
+    html = '<p><a href="/wiki/Honda">Honda</a>\'s rider<sup class="reference">[1]</sup>.</p>'
+    assert cell_text(cell(html)) == "Honda's rider."
+
+
+def test_cell_text_treats_line_breaks_as_spaces():
+    assert cell_text(cell("<p>Ducati<br/>Lenovo</p>")) == "Ducati Lenovo"

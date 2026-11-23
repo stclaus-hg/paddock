@@ -15,7 +15,9 @@ def cell_text(tag: Tag) -> str:
     clean = copy.copy(tag)
     for noise in clean.select(", ".join(_NOISE_SELECTORS)):
         noise.decompose()
-    text = _BRACKET_MARKER.sub("", clean.get_text(" "))
+    for line_break in clean.find_all("br"):
+        line_break.replace_with(" ")
+    text = _BRACKET_MARKER.sub("", clean.get_text())
     return " ".join(text.split())
 
 
