@@ -132,3 +132,12 @@ def test_status_counts_as_start():
     assert ResultStatus.CLASSIFIED.counts_as_start
     assert not ResultStatus.DNS.counts_as_start
     assert not ResultStatus.DNQ.counts_as_start
+
+
+def test_row_with_merged_cells_is_parsed():
+    merged = (
+        f'<th>DNS</th><td>7</td><td>{FLAG}<a href="/wiki/Some_Rider">Some Rider</a></td><td>Team X</td>'
+        '<td>Honda</td><td colspan="2">Did not start</td><td>9</td><td></td>'
+    )
+    result = only_row(synthetic_page(merged))
+    assert (result.status, result.laps, result.grid, result.team) == (ResultStatus.DNS, None, 9, "Team X")

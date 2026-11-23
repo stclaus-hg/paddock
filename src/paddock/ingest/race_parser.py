@@ -4,7 +4,7 @@ from decimal import Decimal, InvalidOperation
 
 from bs4 import BeautifulSoup, Tag
 
-from paddock.ingest.html_utils import cell_text, link_target
+from paddock.ingest.html_utils import cell_text, expand_row, link_target
 from paddock.models import ResultRow, ResultStatus, SessionType
 
 #: header cells that identify a race classification table (qualifying and practice tables lack some of them)
@@ -60,9 +60,9 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
     constructor_col = next((column[h] for h in CONSTRUCTOR_HEADERS if h in column), None)
     rows: list[ResultRow] = []
     for tr in table.find_all("tr")[1:]:
-        cells = tr.find_all(["th", "td"], recursive=False)
-        if len(cells) < len(headers):
-            continue  # footer rows such as "Sources: …" span all columns in one cell
+        cells = expand_row(tr)
+        if cells is None or len(cells) < len(headers):
+            continue
 
         def text(name: str, cells: list[Tag] = cells) -> str:
             return cell_text(cells[column[name]]) if name in column else ""

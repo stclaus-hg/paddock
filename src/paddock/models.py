@@ -40,3 +40,10 @@ class ResultRow:
     laps: int | None
     grid: int | None
     points: Decimal
+
+
+@dataclass(frozen=True)
+class EventRef:
+    season: int
+    round: int
+    wiki_title: str

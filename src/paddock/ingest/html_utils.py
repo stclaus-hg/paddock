@@ -48,3 +48,18 @@ def _title_from_href(href: str) -> str | None:
         if parts.path.startswith(prefix):
             return unquote(parts.path.removeprefix(prefix)).replace("_", " ")
     return None
+
+
+def expand_row(tr: Tag) -> list[Tag] | None:
+    """The row's cells with each ``colspan`` cell repeated once per column it covers.
+
+    Returns ``None`` for a row made of a single cell (a full-width footer such as "Sources: …").
+    """
+    cells = tr.find_all(["th", "td"], recursive=False)
+    if len(cells) <= 1:
+        return None
+    expanded: list[Tag] = []
+    for cell in cells:
+        span = str(cell.get("colspan", "1"))
+        expanded.extend([cell] * (int(span) if span.isdigit() else 1))
+    return expanded
