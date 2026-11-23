@@ -16,6 +16,14 @@ from paddock.models import SessionType
 
 FIRST_SEASON = 2002  #: first season of the four-stroke MotoGP era; earlier years are out of scope
 
+#: Grand Prix whose MotoGP race was not held (no classification exists); kept in the calendar without results.
+CANCELLED_RACES = frozenset(
+    {
+        "2011 Malaysian motorcycle Grand Prix",  # stopped after Marco Simoncelli's fatal accident
+        "2018 British motorcycle Grand Prix",  # cancelled because of standing water on the track
+    }
+)
+
 log = structlog.get_logger()
 
 
@@ -108,7 +116,8 @@ def _collect_season(client: WikiSource, cache: HtmlCache, year: int) -> _SeasonP
             result.problems.append(event.wiki_title)
             continue
         rows = parse_gp_results(_html(client, cache, event_revision.revid))
-        if not any(r.session is SessionType.RACE for r in rows):
+        has_race = any(r.session is SessionType.RACE for r in rows)
+        if not has_race and event_revision.canonical_title not in CANCELLED_RACES:
             result.problems.append(event.wiki_title)
             continue
         result.pages.append(

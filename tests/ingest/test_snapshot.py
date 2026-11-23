@@ -219,3 +219,19 @@ def test_ensure_cached_fetches_only_missing(cache):
     assert ensure_cached(manifest, fake, cache) == 2
     assert sorted(fake.fetched) == sorted(revids[1:])
     assert all(cache.has(r) for r in revids)
+
+
+def test_known_cancelled_race_is_kept_without_error(cache):
+    fake = FakeWikiClient()
+    fake.add(
+        "2011 Grand Prix motorcycle racing season",
+        season_html("2011 A motorcycle Grand Prix", "2011 Malaysian motorcycle Grand Prix"),
+    )
+    fake.add("2011 A motorcycle Grand Prix", gp_html("Rider A"))
+    fake.add("2011 Malaysian motorcycle Grand Prix", NO_RESULTS_HTML)
+    fake.add("Rider A", BIO_HTML)
+
+    manifest = build_snapshot(fake, cache, today=date(2012, 1, 10), first_season=2011)
+
+    events = [(p.title, p.round) for p in manifest.pages if p.kind is PageKind.EVENT]
+    assert events == [("2011 A motorcycle Grand Prix", 1), ("2011 Malaysian motorcycle Grand Prix", 2)]

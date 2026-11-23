@@ -9,7 +9,9 @@ from paddock.ingest.html_utils import cell_text, expand_row, link_target
 from paddock.models import ResultRow, ResultStatus, SessionType
 
 #: header cells that identify a race classification table (qualifying and practice tables lack some of them)
-REQUIRED_HEADERS = frozenset({"Pos", "Rider", "Laps", "Time/Retired", "Grid", "Points"})
+REQUIRED_HEADERS = frozenset({"Pos", "Rider", "Laps", "Grid", "Points"})
+#: header spellings that differ between seasons, mapped to the names used here
+HEADER_ALIASES = {"Biker": "Rider"}
 #: older pages call the constructor column "Manufacturer"
 CONSTRUCTOR_HEADERS = ("Constructor", "Manufacturer")
 SPRINT_MARKER = "Sprint"
@@ -29,8 +31,8 @@ STATUS_CODES = {
 }
 
 
-#: some early pages number non-finishers in order of retirement: "Ret (13)"
-_ORDER_SUFFIX = re.compile(r"\s*\(\d+\)$")
+#: a parenthesised note after a status code: "Ret (13)" (order of retirement), "DSQ (Ret)"
+_STATUS_NOTE = re.compile(r"\s*\([^)]*\)$")
 
 
 def parse_gp_results(html: str) -> list[ResultRow]:
@@ -51,8 +53,9 @@ def parse_gp_results(html: str) -> list[ResultRow]:
 
 
 def _header_name(cell: Tag) -> str:
-    """Header text without a trailing dot: pages write both "Pos." and "Pos"."""
-    return cell_text(cell).rstrip(".")
+    """Header text without a trailing dot ("Pos." and "Pos" both occur), with spelling variants unified."""
+    name = cell_text(cell).rstrip(".")
+    return HEADER_ALIASES.get(name, name)
 
 
 def _session_for(table: Tag) -> SessionType | None:
@@ -102,7 +105,7 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
 def _position_and_status(value: str) -> tuple[int | None, ResultStatus]:
     if value.isdigit():
         return int(value), ResultStatus.CLASSIFIED
-    status = STATUS_CODES.get(_ORDER_SUFFIX.sub("", value).upper())
+    status = STATUS_CODES.get(_STATUS_NOTE.sub("", value).upper())
     if status is None:
         raise ValueError(f"Unknown position code in results table: {value!r}")
     return None, status

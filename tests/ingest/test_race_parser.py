@@ -4,7 +4,7 @@ import pytest
 
 from paddock.ingest.race_parser import parse_gp_results
 from paddock.models import ResultRow, ResultStatus, SessionType
-from tests.wiki_fixtures import JAPAN_2002, QATAR_2024, SPAIN_2005, load_fixture
+from tests.wiki_fixtures import JAPAN_2002, QATAR_2024, SPAIN_2005, SPAIN_2022, load_fixture
 
 HEADER = (
     "<tr><th>Pos.</th><th>No.</th><th>Rider</th><th>Team</th><th>Constructor</th>"
@@ -150,7 +150,7 @@ def test_2002_japan_numbered_retirements():
     assert "Casey Stoner" not in {r.rider_name for r in rows}  # 250cc excluded
 
 
-@pytest.mark.parametrize("pos", ["Ret (13)", "Ret(13)", "DNS (22)"])
+@pytest.mark.parametrize("pos", ["Ret (13)", "Ret(13)", "DNS (22)", "DSQ (Ret)"])
 def test_status_code_with_order_number(pos):
     assert only_row(synthetic_page(row(pos))).position is None
 
@@ -159,3 +159,16 @@ def test_headers_without_trailing_dot_are_recognised():
     html = synthetic_page(row("1")).replace("<th>Pos.</th>", "<th>Pos</th>").replace("<th>No.</th>", "<th>No</th>")
     result = only_row(html)
     assert (result.position, result.bike_number) == (1, 7)
+
+
+def test_2022_spain_rider_column_named_biker():
+    rows = parse_gp_results(load_fixture(SPAIN_2022))
+    winner = next(r for r in rows if r.position == 1)
+    assert (winner.session, winner.rider_name, winner.constructor) == (SessionType.RACE, "Francesco Bagnaia", "Ducati")
+    assert {r.session for r in rows} == {SessionType.RACE}  # MotoE "Race 1"/"Race 2" tables are not MotoGP
+
+
+@pytest.mark.parametrize("time_header", ["Time", "Time/retired", "Time/Retired"])
+def test_time_column_name_variants(time_header):
+    html = synthetic_page(row("1")).replace("<th>Time/Retired</th>", f"<th>{time_header}</th>")
+    assert only_row(html).position == 1

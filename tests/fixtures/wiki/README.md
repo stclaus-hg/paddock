@@ -11,6 +11,7 @@ Each file is named after its revision id and was downloaded with `scripts/fetch_
 |-------|------|----------|
 | 1366101181 | 2002 Japanese motorcycle Grand Prix | <https://en.wikipedia.org/w/index.php?oldid=1366101181> |
 | 1367354866 | 2005 Spanish motorcycle Grand Prix | <https://en.wikipedia.org/w/index.php?oldid=1367354866> |
+| 1342447742 | 2022 Spanish motorcycle Grand Prix | <https://en.wikipedia.org/w/index.php?oldid=1342447742> |
 | 1377682352 | 2024 Qatar motorcycle Grand Prix | <https://en.wikipedia.org/w/index.php?oldid=1377682352> |
 | 1373574739 | 2003 Grand Prix motorcycle racing season | <https://en.wikipedia.org/w/index.php?oldid=1373574739> |
 | 1383846918 | 2005 Grand Prix motorcycle racing season | <https://en.wikipedia.org/w/index.php?oldid=1383846918> |
