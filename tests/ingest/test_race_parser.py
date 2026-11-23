@@ -153,3 +153,9 @@ def test_2002_japan_numbered_retirements():
 @pytest.mark.parametrize("pos", ["Ret (13)", "Ret(13)", "DNS (22)"])
 def test_status_code_with_order_number(pos):
     assert only_row(synthetic_page(row(pos))).position is None
+
+
+def test_headers_without_trailing_dot_are_recognised():
+    html = synthetic_page(row("1")).replace("<th>Pos.</th>", "<th>Pos</th>").replace("<th>No.</th>", "<th>No</th>")
+    result = only_row(html)
+    assert (result.position, result.bike_number) == (1, 7)

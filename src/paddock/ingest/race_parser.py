@@ -9,7 +9,7 @@ from paddock.ingest.html_utils import cell_text, expand_row, link_target
 from paddock.models import ResultRow, ResultStatus, SessionType
 
 #: header cells that identify a race classification table (qualifying and practice tables lack some of them)
-REQUIRED_HEADERS = frozenset({"Pos.", "Rider", "Laps", "Time/Retired", "Grid", "Points"})
+REQUIRED_HEADERS = frozenset({"Pos", "Rider", "Laps", "Time/Retired", "Grid", "Points"})
 #: older pages call the constructor column "Manufacturer"
 CONSTRUCTOR_HEADERS = ("Constructor", "Manufacturer")
 SPRINT_MARKER = "Sprint"
@@ -40,7 +40,7 @@ def parse_gp_results(html: str) -> list[ResultRow]:
         header_row = table.find("tr")
         if not isinstance(header_row, Tag):
             continue
-        headers = [cell_text(c) for c in header_row.find_all(["th", "td"], recursive=False)]
+        headers = [_header_name(c) for c in header_row.find_all(["th", "td"], recursive=False)]
         if not REQUIRED_HEADERS.issubset(headers):
             continue
         session = _session_for(table)
@@ -48,6 +48,11 @@ def parse_gp_results(html: str) -> list[ResultRow]:
             continue
         rows.extend(_parse_table(table, headers, session))
     return rows
+
+
+def _header_name(cell: Tag) -> str:
+    """Header text without a trailing dot: pages write both "Pos." and "Pos"."""
+    return cell_text(cell).rstrip(".")
 
 
 def _session_for(table: Tag) -> SessionType | None:
@@ -72,7 +77,7 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
         def text(name: str, cells: list[Tag] = cells) -> str:
             return cell_text(cells[column[name]]) if name in column else ""
 
-        position, status = _position_and_status(text("Pos."))
+        position, status = _position_and_status(text("Pos"))
         rider_cell = cells[column["Rider"]]
         rider_link, has_article = link_target(rider_cell)
         rows.append(
@@ -83,7 +88,7 @@ def _parse_table(table: Tag, headers: list[str], session: SessionType) -> list[R
                 rider_name=cell_text(rider_cell),
                 rider_link=rider_link,
                 rider_has_article=has_article,
-                bike_number=_int_or_none(text("No.")),
+                bike_number=_int_or_none(text("No")),
                 team=text("Team"),
                 constructor=cell_text(cells[constructor_col]) if constructor_col is not None else "",
                 laps=_int_or_none(text("Laps")),
